@@ -5,7 +5,7 @@
 ## 安装与检查
 
 ```bash
-git clone https://github.com/tison-g/h5game.git
+git clone https://github.com/gosinkx/h5game.git
 cd h5game
 sha256sum -c install.sh.sha256
 sudo sh install.sh NODE_IP

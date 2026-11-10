@@ -5,7 +5,7 @@
 在节点终端执行以下命令（将 IP 替换为当前节点 IP）：
 
 ```bash
-git clone https://github.com/tison-g/h5game.git
+git clone https://github.com/gosinkx/h5game.git
 cd h5game
 sudo sh install.sh 156.245.145.223
 ```
