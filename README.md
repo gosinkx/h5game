@@ -1,5 +1,26 @@
 # GPT-6 Astra · One Shot 游戏测试
 
+## 3X-UI 节点一键安装 HTTPS 游戏回落站
+
+在节点终端执行以下命令（将 IP 替换为当前节点 IP）：
+
+```bash
+git clone https://github.com/tison-g/h5game.git
+cd h5game
+sudo sh install.sh 156.245.145.223
+```
+
+安装器内置本仓库两款游戏和 Linux amd64/arm64 服务程序，节点无需安装 Go、Python、Node.js，也不需要额外下载 GitHub Release。证书只有一个 IPv4 SAN 时，可以省略 IP：`sudo sh install.sh`。
+
+默认直接读取 3X-UI 面板自动续期的证书：
+
+- 公钥：`/root/cert/ip/fullchain.pem`
+- 私钥：`/root/cert/ip/privkey.pem`
+
+安装完成后，到 **ECAcc 后台 → 服务器 → 游戏回落 → 选择 REALITY 入站 → 备份并启用**。脚本只负责安装并验证本机 HTTPS 游戏服务，不直接修改 3X-UI 入站或 Client；由后台保存原目标，便于恢复。
+
+详细选项、更新和备份说明见 [安装说明](installer/README.md)。下文保留原游戏介绍与 Prompt。
+
 两次 One Shot，测试 Astra 的游戏设计与实现能力。保留原始 Prompt 和 HTML 产物，方便体验与 Fork。
 
 ## 01 · 瓜体实验室

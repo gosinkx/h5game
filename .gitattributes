@@ -1,0 +1,7 @@
+*.sh text eol=lf
+*.py text eol=lf
+*.go text eol=lf
+*.md text eol=lf
+*.sha256 text eol=lf
+/melon-lab/*.html -text
+/mosswing/*.html -text
